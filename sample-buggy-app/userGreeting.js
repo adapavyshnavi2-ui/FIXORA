@@ -1,6 +1,5 @@
 function greetUser(user) {
-  const name = user && user.profile && user.profile.name;
-  return "Hello " + (name ?? "Unknown");
+  return `Hello, ${user.profile.name}!`;
 }
 
 module.exports = { greetUser };
