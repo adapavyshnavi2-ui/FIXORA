@@ -1,0 +1,4 @@
+TypeError: Cannot read properties of undefined (reading 'name')
+    at greetUser (/sample-buggy-app/userGreeting.js:4:30)
+    at Object.<anonymous> (/sample-buggy-app/userGreeting.test.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)

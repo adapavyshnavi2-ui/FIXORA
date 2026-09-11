@@ -1,0 +1,23 @@
+{
+  "name": "fixora",
+  "version": "1.0.0",
+  "description": "FIXORA: AI-powered autonomous DevOps agent. Diagnoses deployment failures, generates candidate fixes, empirically validates them in isolated sandboxes with blast-radius impact analysis, and opens evidence-backed PRs for developer review.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test:self": "node src/selfTest.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "simple-git": "^3.25.0",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
